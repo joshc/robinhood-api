@@ -3,7 +3,7 @@
 A pseudo-API for Robinhood actions using their web platform and Selenium.
 # First time here?
 Pull the master branch and run the following commands:
-```
+```zsh
 make venv
 source ~/venvs/robinhood-api/bin/activate
 make update-packages
