@@ -19,3 +19,6 @@ test:
 	pytest
 
 push: lint test
+
+install-chromedriver:
+	brew cask install chromedriver
