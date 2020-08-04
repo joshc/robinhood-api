@@ -27,7 +27,7 @@ jobs:
         if [ -f requirements.txt ]; then make update-packages; fi
     - name: Lint with flake8
       run: |
-        make lint
+        make style-check
     - name: Test with pytest
       run: |
         make test
